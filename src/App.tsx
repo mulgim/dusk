@@ -30,8 +30,11 @@ export default function App() {
       <div className="cyber-grid pointer-events-none" />
       <div className="cyber-scanline pointer-events-none" />
 
+      {/* Spacer to preserve layout grid dimensions for fixed sidebar */}
+      <div className="w-16 shrink-0 hidden md:block" />
+
       {/* Elegant Left Sidebar - visible on medium screens and up */}
-      <aside className="w-16 border-r border-zinc-800 hidden md:flex flex-col items-center justify-between py-8 bg-[#151516] shrink-0 sticky top-0 h-screen z-50 self-start">
+      <aside className="w-16 border-r border-zinc-800 hidden md:flex flex-col items-center justify-between py-8 bg-[#151516] shrink-0 fixed top-0 left-0 h-screen z-50">
         <div 
           className="flex flex-col items-center gap-1.5 cursor-pointer group" 
           onClick={() => { setActiveTab('home'); setSectorFilter(null); }}
@@ -94,7 +97,7 @@ export default function App() {
       <div className="flex-1 flex flex-col min-h-screen bg-[#1a1a1b] z-10 overflow-x-hidden">
         
         {/* Global Header Navigation styled like the Design HTML */}
-        <header className="sticky top-0 z-40 w-full border-b border-zinc-800 bg-[#1a1a1b]/80 backdrop-blur-md px-6 md:px-10 h-20 flex items-center justify-between">
+        <header className="fixed top-0 left-0 md:left-16 right-0 z-40 border-b border-zinc-800 bg-[#1a1a1b]/80 backdrop-blur-md px-6 md:px-10 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
             {/* Mobile-only logo / tab drawer activator */}
             <div 
@@ -129,7 +132,7 @@ export default function App() {
         </header>
 
         {/* Mobile-only Top Navigation Tab Bar */}
-        <nav className="flex md:hidden items-center justify-around bg-[#151516] border-b border-zinc-800/80 py-2.5 px-4 sticky top-20 z-30">
+        <nav className="flex md:hidden items-center justify-around bg-[#151516] border-b border-zinc-800/80 py-2.5 px-4 fixed top-20 left-0 right-0 z-30">
           <button
             onClick={() => { setActiveTab('home'); setSectorFilter(null); }}
             className={`text-[10px] uppercase font-bold tracking-wider ${activeTab === 'home' ? 'text-zinc-100 border-b border-zinc-300 pb-0.5' : 'text-zinc-500'}`}
@@ -164,7 +167,7 @@ export default function App() {
         </nav>
 
         {/* Main App Content View Wrapper */}
-        <main className="flex-1 w-full relative">
+        <main className="flex-1 w-full relative pt-32 md:pt-20">
           <div className="relative z-10 w-full min-h-[75vh]">
             <AnimatePresence mode="wait">
               {activeTab === 'home' && (

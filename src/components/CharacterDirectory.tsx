@@ -39,8 +39,8 @@ const getCharacterImage = (id: string, gender: string) => {
     ren: 'https://mul3.uk/du/z/w.webp'
   };
   return images[id] || (gender === '여' 
-    ? 'https://mul3.uk/du/za/1.webp'
-    : 'https://mul3.uk/du/zb/1.webp');
+    ? 'https://mul3.uk/du/zb/1.webp'
+    : 'https://mul3.uk/du/za/1.webp');
 };
 
 const getRatingBorderAndShadow = (rating: string) => {

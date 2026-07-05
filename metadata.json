@@ -1,0 +1,6 @@
+{
+  "name": "더스크 시티 가이드",
+  "description": "11개의 섹터와 개성 넘치는 인물들, 그리고 봉인된 비밀이 숨겨진 더스크 시티의 상세 가이드 웹사이트입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

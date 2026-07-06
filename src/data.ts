@@ -265,9 +265,9 @@ export const CHARACTERS: Character[] = [
     role: '섹터 3 해결사 / 프리랜서 해결사',
     sectorId: 3,
     addonName: '모든 것을 끊어내는 선 - 절광(絶光)',
-    addonDescription: '공격 궤적을 따라 푸른 균열을 생성합니다. 균열을 가볍게 치면 그 선상의 모든 물질 결합이 즉시 끊어져 절단됩니다.',
+    addonDescription: '공격 궤적을 따라 푸른 균열을 생성합니다. 균열을 다시 베어내면 그 어떤 물체라도 끊어낼 수 있습니다.',
     externalName: '숨이 닿을 만큼 늘려둔 찰나 - 스티그마 (Stigma)',
-    externalDescription: '대낫 형태의 무기. 휘두를 때마다 대기 관성을 무화시키고 소유주의 물리적 속도를 아광속 수준까지 폭증시킵니다.',
+    externalDescription: '대낫 형태의 무기. 휘두를 때마다 사용자를 점점 가속시킵니다.',
     quote: '섹터 3에서 거주 중인 일류 해결사.',
   },
   {
@@ -373,7 +373,7 @@ export const CHARACTERS: Character[] = [
     role: '뱅가드 섹터 6 지부 3급 대원',
     sectorId: 6,
     addonName: '해를 맞은 여우비 - 플루비아 솔리스 (Pluvia Solis)',
-    addonDescription: '대기 중의 수분을 조작해 온 섹터에 여우비를 뿌립니다. 비는 아군에게 세포 재생과 마력 회복을 부여하고, 적에게는 철판을 관통하는 고압 수탄으로 작용합니다.',
+    addonDescription: '하늘에서 비를 내립니다. 비는 아군에게 회복을, 적에게는 데미지를 줍니다.',
     quote: '용신을 동경하는 소녀.',
   },
   {
@@ -385,7 +385,7 @@ export const CHARACTERS: Character[] = [
     role: '섹터 7 킹 / 마스터 / 정원사',
     sectorId: 7,
     addonName: '지옥늪에서 피어난 식인정원 - 네펜데스 (Nepenthes)',
-    addonDescription: '숲에 침입한 대상을 양분으로 빠르게 분해 흡수하여 식인 식물과 마수를 폭발적으로 자라나게 만들어 숲 영역을 넓힙니다.',
+    addonDescription: '숲에 침입한 대상을 양분으로 빠르게 분해 흡수하여 식인 식물을 폭발적으로 자라나게 만들어 숲 영역을 넓힙니다.',
     quote: '섹터 7의 숲 그 자체, 인간 혐오자.',
     secretDetails: {
       revealedName: '잭',
@@ -414,7 +414,7 @@ export const CHARACTERS: Character[] = [
     role: '섹터 8 킹 / 마스터 / 광기 어린 지휘자',
     sectorId: 8,
     addonName: '광기의 서곡 - 두란테 (Durante)',
-    addonDescription: '공중에 오색의 가상 악보를 소출하여 물리 탄막을 발사하고 관객들의 신경을 자극하는 소리 광역 제어 능력입니다.',
+    addonDescription: '지휘봉을 들고 휘둘러 음표를 발사하거나 주변 환경에 간섭할 수 있는 능력입니다.',
     quote: '도시를 환락으로 이끄는 광대.',
     secretDetails: {
       revealedName: '미나',
@@ -448,7 +448,7 @@ export const CHARACTERS: Character[] = [
     role: '뱅가드 섹터 8 지부 3급 대원 / 사격 마스터',
     sectorId: 8,
     addonName: '6발의 마탄과 1발의 흉탄 - 디어 프라이시츠 (Der Freischütz)',
-    addonDescription: '추적 명중하는 6발의 청색 마탄과, 임의의 위치를 관통 저격하는 1발의 적색 흉탄을 쏘는 푸른 리볼버를 발현합니다.',
+    addonDescription: '추적 명중하는 6발의 청색 마탄과, 원하는 위치를 필중하는 1발의 적색 흉탄을 쏘는 푸른 리볼버를 발현합니다.',
     quote: '전문직 땡땡이 뱅가드 대원',
   },
   {

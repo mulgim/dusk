@@ -387,7 +387,7 @@ export default function CharacterDirectory({
                     id={`btn-inspect-char-${char.id}`}
                   >
                     <Eye className="w-3.5 h-3.5 text-zinc-500 group-hover:text-zinc-300" />
-                    <span>Dossier_Check</span>
+                    <span>상세보기</span>
                   </button>
                 </div>
               </motion.div>

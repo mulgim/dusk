@@ -500,7 +500,7 @@ export const CHARACTERS: Character[] = [
     gender: '여',
     rating: '오메가급 익스터널',
     personality: ['밝음', '쾌활', '말많음'],
-    role: '제로 섹터 중심부에 있던 의문의 검',
+    role: '말하는 검, 여행의 동반자.',
     sectorId: 0,
     addonName: '어떤 검사의 미련 - 노스탤지어 (Nostalgia)',
     addonDescription: '잡고 명상 시 정지된 시공간에서 누군가와 대련하며, 대륙 최강 수준의 검술을 영혼과 근육에 완벽히 전수합니다.',

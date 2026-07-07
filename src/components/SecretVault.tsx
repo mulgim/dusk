@@ -15,10 +15,10 @@ export default function SecretVault() {
           <span className="text-xs uppercase font-mono tracking-widest text-zinc-500">Worldview Database</span>
         </div>
         <h2 className="text-3xl font-light text-zinc-100 tracking-wider" id="secrets-title">
-          세계관 공식 데이터베이스
+          세계관 & 월드로어 공식 데이터베이스
         </h2>
         <p className="text-sm text-zinc-400 max-w-3xl leading-relaxed">
-          더스크 시티의 시대상, 정치 구조, 핵심 전투 이능 시스템(애드온/익스터널/몬스터) 및 등급 체계를 정리한 공식 가이드라인입니다.
+          더스크 시티의 시대상, 정치 구조, 핵심 전투 이능 월드로어(애드온/익스터널/몬스터) 및 등급 체계를 정리한 공식 가이드라인입니다.
         </p>
       </div>
 
@@ -116,16 +116,16 @@ export default function SecretVault() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm leading-relaxed text-zinc-300">
                   <div className="space-y-2">
-                    <span className="text-xs text-zinc-400 font-bold font-mono block">■ 과거 전설의 마스터 (말소된 이름)</span>
+                    <span className="text-xs text-zinc-400 font-bold font-mono block">■ 과거 전설의 마스터 - 백뢰 (白雷)</span>
                     <p className="text-zinc-300">
-                      과거 제로 섹터의 정점에서 도시 전체를 쥐고 흔들었던 미지의 마스터입니다. 가늠할 수 없는 강력한 무력과 광기로 여러 파괴적인 행위를 남겼으나, 어느 날 의문의 무명검사와의 사투 끝에 패배하여 사살당했습니다. 그의 이름과 상세한 권능에 대한 공식 기록은 역사에서 완전히 말소되었으며, 현재는 오직 단편적인 구전으로만 전해집니다.
+                      과거 제로 섹터의 정점에서 도시 전체를 쥐고 흔들었던 전설의 마스터 백뢰(白雷)입니다. 가늠할 수 없는 강력한 무력과 광기로 여러 파괴적인 행위를 남겼으나, 어느 날 의문의 무명검사와의 사투 끝에 패배하여 사살당했습니다. 그의 상세한 행적과 권능에 대한 공식 기록은 역사에서 상당히 검열 및 말소되었으나, 여전히 그 파괴력과 '백뢰'라는 이름은 공포와 경외심을 담아 구전되고 있습니다.
                     </p>
                     <p className="text-zinc-400 text-xs bg-zinc-900/50 p-3 rounded border border-zinc-800">
                       <strong>전해지는 소문:</strong> 눈부신 백색 제복을 착용했다고 하며, 하늘의 벼락을 자유자재로 부리던 가공할 고유 애드온 능력을 지녔었다고 전해집니다.<br />
-                      <strong>보유 애드온:</strong> 천뢰 (공식 기록 말소)
+                      <strong>보유 애드온:</strong> 백뢰 / 천뢰 (공식 기록 말소)
                     </p>
                     <p className="text-zinc-400 text-xs">
-                      * 본래 마스터는 총 7명이었으나, 과거의 지배적인 마스터를 쓰러뜨린 무명검사가 그 자리를 거부하고 종적을 감추었기 때문에 공석이 생겨 현재는 6명 체제로 유지되고 있습니다.
+                      * 본래 마스터는 총 7명이었으나, 과거의 지배적인 마스터 '백뢰'를 쓰러뜨린 무명검사가 그 자리를 거부하고 종적을 감추었기 때문에 공석이 생겨 현재는 6명 체제로 유지되고 있습니다.
                     </p>
                   </div>
                   <div className="space-y-2 border-t md:border-t-0 md:border-l border-zinc-800 pt-4 md:pt-0 md:pl-6">

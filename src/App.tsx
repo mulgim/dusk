@@ -82,7 +82,7 @@ export default function App() {
             id="nav-tab-secrets-aside"
           >
             <span className="transform -rotate-90 origin-center whitespace-nowrap select-none pointer-events-none">
-              SYSTEM
+              WORLD LORE
             </span>
           </button>
         </div>
@@ -162,7 +162,7 @@ export default function App() {
             className={`text-[10px] uppercase font-bold tracking-wider ${activeTab === 'secrets' ? 'text-red-400 border-b border-red-500/80 pb-0.5' : 'text-zinc-500'}`}
             id="nav-tab-secrets"
           >
-            SYSTEM
+            WORLD LORE
           </button>
         </nav>
 
